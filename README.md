@@ -7,7 +7,7 @@
 ### 🚀 About Me
 - 🏢 현재 **웹 서비스 유지보수(Web Maintenance)** 업무를 담당하고 있습니다.
 - 🤖 **AI 챗봇**과 **웹 서비스** 개발에 깊은 흥미를 가지고 토이 프로젝트를 진행 중입니다.
-- 📝 배운 내용을 정리하여 [Tistory 블로그][(https://gony2023.tistory.com/)에 공유합니다.
+- 📝 배운 내용을 정리하여 [Tistory 블로그][(https://gony2023.tistory.com/) 에 공유합니다.
 
 ---
 
