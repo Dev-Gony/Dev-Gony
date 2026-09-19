@@ -4,18 +4,16 @@
 
 반복되는 일을 줄이고, 사람이 판단해야 할 부분에 더 집중할 수 있는 도구를 만들고 있습니다.
 
-아이디어를 빠르게 구현하는 것보다 **실제로 써보고, 실패 지점을 확인하고, 다시 고치는 과정**을 중요하게 생각합니다.  
-요즘은 Python 기반 자동화와 Slack을 인터페이스로 사용하는 개인용 AI Agent를 주로 만들고 있습니다.
+아이디어를 빠르게 구현하는 것보다 **실제로 사용하고, 실패 지점을 확인하고, 다시 개선하는 과정**을 중요하게 생각합니다.
 
 ---
 
-## Projects
+## Selected Projects
 
 ### [Career Agent](https://github.com/Dev-Gony/career-agent)
 
-개인의 경력, 프로젝트, 기술 역량을 실제 채용공고와 비교하는 개인용 커리어 에이전트입니다.
-
-공고를 단순 추천하는 대신 요구사항별 근거를 확인하고, 현재 강점과 부족한 역량, 추가로 확인해야 할 내용을 분리해서 보여주는 방향으로 개발하고 있습니다.
+개인의 경력, 프로젝트, 기술 역량을 실제 채용공고와 비교해  
+확인된 강점, 부족한 역량, 미확인 정보를 분리하고 지원 판단 근거를 제공하는 개인용 커리어 분석 시스템입니다.
 
 `Python` `Slack Bolt` `Greenhouse API` `RSS`
 
@@ -23,27 +21,29 @@
 
 ### [TechNews](https://github.com/Dev-Gony/technews)
 
-국내외 기술 블로그와 GeekNews를 수집하고, Gemini로 중요도와 활용 가치를 평가한 뒤 Slack으로 전달하는 기술 뉴스 자동화 프로젝트입니다.
+여러 기술 블로그와 GeekNews를 수집하고, Gemini로 중요도와 활용 가치를 평가해 Slack으로 전달하는 운영형 기술 뉴스 자동화 프로젝트입니다.
 
-중복 제거, 신규 글 판별, 배치 요약, GitHub Actions 예약 실행까지 실제로 매일 돌릴 수 있는 흐름을 만드는 데 초점을 맞췄습니다.
+중복 제거, 배치 처리, 오류 재시도, GitHub Actions 예약 실행, 기사 히스토리와 Slack 피드백 흐름을 다루고 있습니다.
 
 `Python` `Gemini API` `Slack` `GitHub Actions` `RSS / Atom`
 
 ---
 
-### [AutoShorts](https://github.com/Dev-Gony/AutoShorts)
+### [Re:Place](https://github.com/Dev-Gony/re-place)
 
-블로그 URL을 입력하면 본문 추출부터 숏폼 대본 생성, TTS, 자막, 세로 영상 렌더링까지 이어지는 로컬 자동화 파이프라인입니다.
+여러 체험단 플랫폼의 서로 다른 데이터 구조를 분석해 수집하고, 공통 형태로 정리해 Supabase와 Next.js 화면으로 연결한 데이터 통합 프로젝트입니다.
 
-`Python` `Gemini` `OpenAI` `Streamlit` `TTS`
+HTML 파싱, 네트워크 요청 구조 분석, 페이지네이션, Next.js Build ID 변경 대응 등 플랫폼별 수집 문제를 해결했습니다.
+
+`Next.js` `TypeScript` `Python` `Supabase` `BeautifulSoup`
 
 ---
 
-### [Recipe SNS Content](https://github.com/Dev-Gony/recipe)
+### [AutoShorts](https://github.com/Dev-Gony/AutoShorts)
 
-레시피 조사, 콘텐츠 작성, 이미지 시안 제작, 근거 검토를 역할별로 나누어 진행한 AI 기반 콘텐츠 제작 워크플로입니다.
+블로그 URL을 입력하면 본문 추출부터 숏폼 대본, TTS, 자막, 9:16 영상 렌더링까지 연결하는 로컬 콘텐츠 자동화 파이프라인입니다.
 
-`AI Workflow` `Research` `Content Automation`
+`Python` `Gemini` `OpenAI` `MoviePy` `Streamlit`
 
 ---
 
@@ -52,8 +52,8 @@
 - AI Agent와 Agentic Workflow
 - LLM API를 실제 서비스 흐름에 연결하는 방법
 - Slack 기반 Agent 인터페이스
-- GitHub Actions를 이용한 반복 작업 자동화
-- 사용자 피드백을 다음 실행에 반영하는 구조
+- 반복 작업 자동화와 운영 안정성
+- 외부 데이터 수집과 정규화
 - Python / SQL 기반 데이터 처리와 분석
 
 ---
@@ -65,6 +65,7 @@
 <p>
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js" />
   <img src="https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white" alt="NestJS" />
   <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL" />
 </p>
@@ -80,13 +81,12 @@
 
 ---
 
-## Learning Log
+## Other Public Work
 
-공부한 내용을 따로 쌓아두기보다 프로젝트에 적용하고, 다시 기록하는 방식으로 학습하고 있습니다.
-
-- [TIL](https://github.com/Dev-Gony/TIL)
-- [Algorithm Python](https://github.com/Dev-Gony/algorithm-python)
-- [Tistory Blog](https://gony2023.tistory.com/)
+- [AI Skills](https://github.com/Dev-Gony/ai-skills) — 반복해서 사용하는 AI 작업 방식을 재사용 가능한 Skill 형태로 정리
+- [TIL](https://github.com/Dev-Gony/TIL) — 학습 기록
+- [Algorithm Python](https://github.com/Dev-Gony/algorithm-python) — Python 알고리즘 연습
+- [Tistory Blog](https://gony2023.tistory.com/) — 개발 및 학습 기록
 
 ---
 
