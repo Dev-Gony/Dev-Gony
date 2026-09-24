@@ -1,49 +1,73 @@
 # Dev-Gony
 
-**AI Agent / Automation / Data**
+**Python Backend · AI Automation · Data Systems**
 
-반복되는 업무를 줄이고, 실제로 사용하면서 개선할 수 있는 자동화 시스템을 만들고 있습니다.
+운영 중인 문제를 분석하고, 데이터·API·LLM·자동화를 조합해 실제로 반복 실행할 수 있는 서비스로 만드는 데 관심이 있습니다.
 
-주로 Python을 사용해 외부 데이터를 수집·정리하고, LLM과 Slack 같은 도구를 실제 업무 흐름에 연결하는 프로젝트를 진행합니다.
+실무에서는 웹서비스 유지보수, Linux/Apache/MySQL 서버 운영, 장애 대응, 레거시 개선과 해외 지사 서버 구축을 경험했고, 최근에는 Python 기반 자동화와 데이터 파이프라인을 중심으로 프로젝트를 확장하고 있습니다.
 
 ## Selected Work
 
-### [Career Agent](https://github.com/Dev-Gony/career-agent)
+### [Re:Place](https://github.com/Dev-Gony/re-place)
 
-채용공고와 개인의 실제 경력·프로젝트를 비교해 **확인된 강점, 역량 차이, 미확인 정보와 지원 판단 근거**를 제공하는 개인용 커리어 분석 시스템.
+여러 체험단 플랫폼의 캠페인을 수집·정규화해 하나의 검색 서비스로 통합한 프로젝트입니다.  
+현재 운영 배치는 5개 플랫폼 Collector를 사용하고, Neon Postgres와 Next.js를 통해 데이터를 제공합니다.
 
-`Python · Slack Bolt · Greenhouse API · RSS`
+[Live](https://re-place-rust.vercel.app/) · [Code](https://github.com/Dev-Gony/re-place)
 
-### [TechNews](https://github.com/Dev-Gony/technews)
+`Next.js · TypeScript · Python · Neon PostgreSQL · GitHub Actions`
 
-여러 기술 소스를 수집하고 Gemini로 선별·요약해 Slack으로 전달하는 **매일 실행 가능한 기술 뉴스 자동화 파이프라인**.
+### [GONY DAILY](https://github.com/Dev-Gony/technews)
+
+여러 기술 소스를 수집하고 Gemini로 선별·요약한 뒤 Slack과 웹 신문으로 자동 발행하는 기술 뉴스 파이프라인입니다.
+
+[Live](https://dev-gony.github.io/technews/) · [Code](https://github.com/Dev-Gony/technews)
 
 `Python · Gemini API · Slack · GitHub Actions`
 
-### [Re:Place](https://github.com/Dev-Gony/re-place)
-
-서로 다른 체험단 플랫폼의 데이터 구조를 분석하고 수집해 Neon Postgres와 Next.js로 연결한 **멀티소스 데이터 통합 프로젝트**.
-
-`Next.js · TypeScript · Python · Neon · PostgreSQL`
-
 ### [AutoShorts](https://github.com/Dev-Gony/AutoShorts)
 
-블로그 URL 하나를 **본문 추출 → 대본 → TTS → 자막 → 9:16 MP4**까지 변환하는 로컬 콘텐츠 자동화 파이프라인.
+블로그 URL 하나를 **본문 추출 → 대본 생성 → TTS → 자막 → 9:16 MP4 렌더링**까지 연결하는 콘텐츠 자동화 파이프라인입니다.
 
-`Python · Gemini / OpenAI · MoviePy · Streamlit`
+[Code](https://github.com/Dev-Gony/AutoShorts)
 
-## What I Work On
+`Python · Gemini / OpenAI · Typecast · MoviePy · Streamlit`
 
-- AI Agent와 업무 자동화
-- 외부 데이터 수집, 정규화, 파이프라인 설계
+### [Prism](https://github.com/Dev-Gony/Prism)
+
+사주·서양 점성술·수비학을 각각 계산하고, 공통점과 차이를 교차 분석해 설명하는 자기이해 서비스입니다.  
+계산 엔진과 LLM 설명을 분리하고, Google OAuth·Supabase 기반 저장/아카이브와 시간축 분석 기능을 구현하고 있습니다.
+
+[Code](https://github.com/Dev-Gony/Prism)
+
+`Next.js · TypeScript · Supabase · Gemini API · astronomy-engine`
+
+### [Career Agent](https://github.com/Dev-Gony/career-agent)
+
+채용공고와 실제 경력·프로젝트를 비교해 **확인된 강점, 부족한 역량, 미확인 정보와 판단 근거**를 구조화하는 개인용 커리어 분석 시스템입니다.
+
+[Code](https://github.com/Dev-Gony/career-agent)
+
+`Python · Slack Bolt · Greenhouse API · RSS`
+
+## Engineering Focus
+
+- Python 기반 백엔드와 자동화
+- 외부 데이터 수집·정규화·저장 파이프라인
 - LLM API를 실제 서비스 흐름에 연결하는 방법
-- 중복 제거, 재시도, 상태 저장 등 반복 실행 안정성
-- Python / SQL 기반 데이터 처리
+- 중복 제거, 재시도, 상태 저장, 실패 격리 등 반복 실행 안정성
+- 배포 이후에도 관찰하고 개선할 수 있는 운영형 구조
+
+## Labs
+
+### [Gony Toy Labs](https://github.com/Dev-Gony/gony-labs)
+
+FastAPI, PostgreSQL, Docker, Redis Queue, API Reliability, Mini RAG, MCP를 작은 Lab으로 구현하고 자동 검증과 면접 설명까지 연결하는 실습 저장소입니다.
 
 ## Stack
 
-`Python` `TypeScript` `Next.js` `NestJS` `SQL` `PostgreSQL` `Neon` `Supabase` `GitHub Actions` `Slack` `Gemini API` `OpenAI API`
+`Python` `Django` `FastAPI` `TypeScript` `Next.js` `SQL` `PostgreSQL` `Neon` `Supabase` `Docker` `GitHub Actions` `Slack` `Gemini API` `OpenAI API`
 
 ## More
 
-[Infrastructure Policy](./INFRASTRUCTURE.md) · [AI Skills](https://github.com/Dev-Gony/ai-skills) · [TIL](https://github.com/Dev-Gony/TIL) · [Algorithm](https://github.com/Dev-Gony/algorithm-python) · [Blog](https://gony2023.tistory.com/)
+[Infrastructure Policy](./INFRASTRUCTURE.md) · [TIL](https://github.com/Dev-Gony/TIL) · [AI Skills](https://github.com/Dev-Gony/ai-skills) · [Algorithm](https://github.com/Dev-Gony/algorithm-python) · [Blog](https://gony2023.tistory.com/)
