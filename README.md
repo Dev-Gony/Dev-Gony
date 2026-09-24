@@ -22,9 +22,9 @@
 
 ### [Re:Place](https://github.com/Dev-Gony/re-place)
 
-서로 다른 체험단 플랫폼의 데이터 구조를 분석하고 수집해 Supabase와 Next.js로 연결한 **멀티소스 데이터 통합 프로젝트**.
+서로 다른 체험단 플랫폼의 데이터 구조를 분석하고 수집해 Neon Postgres와 Next.js로 연결한 **멀티소스 데이터 통합 프로젝트**.
 
-`Next.js · TypeScript · Python · Supabase`
+`Next.js · TypeScript · Python · Neon · PostgreSQL`
 
 ### [AutoShorts](https://github.com/Dev-Gony/AutoShorts)
 
@@ -42,8 +42,8 @@
 
 ## Stack
 
-`Python` `TypeScript` `Next.js` `NestJS` `SQL` `PostgreSQL` `Supabase` `GitHub Actions` `Slack` `Gemini API` `OpenAI API`
+`Python` `TypeScript` `Next.js` `NestJS` `SQL` `PostgreSQL` `Neon` `Supabase` `GitHub Actions` `Slack` `Gemini API` `OpenAI API`
 
 ## More
 
-[AI Skills](https://github.com/Dev-Gony/ai-skills) · [TIL](https://github.com/Dev-Gony/TIL) · [Algorithm](https://github.com/Dev-Gony/algorithm-python) · [Blog](https://gony2023.tistory.com/)
+[Infrastructure Policy](./INFRASTRUCTURE.md) · [AI Skills](https://github.com/Dev-Gony/ai-skills) · [TIL](https://github.com/Dev-Gony/TIL) · [Algorithm](https://github.com/Dev-Gony/algorithm-python) · [Blog](https://gony2023.tistory.com/)
